@@ -1,0 +1,38 @@
+html,
+body,
+.cgrid-container {
+	width: 100%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.cgrid-container {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
+.tribune {
+	margin: auto;
+	width: 560px;
+	height: 160px;
+/*	border: 1px solid red;*/
+	background-image: url(bg-clouds.png);
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	animation: ola 10s linear infinite;
+}
+
+@keyframes ola {
+	from {
+		background-position: 0 0;
+	}
+
+	to {
+		background-position: 100% 0;
+	}
+}
